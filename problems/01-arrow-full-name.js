@@ -13,8 +13,13 @@ let p2 = {firstName: 'Charlie', lastName: 'Brown', age: 9};
 arrowGetFullName(p2); // => 'Charlie Brown'
 
 ***********************************************************************/
+let arrowGetFullName = (person ) =>{
 
-// Your code here 
+    return  person.firstName  + " "  +  person.lastName;
+    }
+
+
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
