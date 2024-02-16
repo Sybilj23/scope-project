@@ -20,6 +20,10 @@ let arrowGetFullName = (person ) =>{
 
 
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
