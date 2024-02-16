@@ -10,15 +10,16 @@ arrowMirrorArray([1,2,3]); // => [ 1, 2, 3, 3, 2, 1 ]
 arrowMirrorArray(['a', 'b', 'c', 'd']); // => [ 'a', 'b', 'c', 'd', 'd', 'c', 'b', 'a' ]
 ***********************************************************************/
 
-lfor ( let i = 0; i < array.length;i++){
-let mirrow = array[i].pop();
-    mirrow.unshift;
-  et arrowMirrowArray = array => {
+let arrowMirrorArray = array => {
 let arr = [];
+  for (let i = 0; i < array.length;i++){
+    arr.push(array[i]);
+  }
+  for (let i = array.length - 1; i >= 0;i--){
+  arr.push(array[i]);
   }
   return arr;
 }
-
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
