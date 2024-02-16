@@ -16,9 +16,13 @@ let sandwich2 = sandwichMaker(); // => returns a function
 sandwich2("pb") // => "One sandwich with tomato and pb"
 
 ***********************************************************************/
+function sandwichMaker() {
+   let sentence = "One sandwich with tomato"
 
-// Your code here 
-
+    return function (topping){
+      return sentence += " and " + topping;
+    }
+  }
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
